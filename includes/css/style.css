@@ -1,0 +1,62 @@
+/*
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Structure
+2.0 Profile
+3.0 Single Post
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 Structure
+--------------------------------------------------------------*/
+.beer_post_list {
+  list-style: none;
+}
+.beer_post_list .beer {
+  box-shadow: none;
+  border-bottom: 1px solid #efefef;
+}
+.beer_post_list h2.beer-title {
+  text-align: center;
+}
+.beer_post_list .beer_image img {
+  margin: 0 auto;
+  display: table;
+}
+.beer_post_list .more-link, .beer_post_list .beer_link {
+  display: block;
+  padding: 1em 0;
+  border-bottom: none;
+}
+
+/*--------------------------------------------------------------
+2.0 Profile
+--------------------------------------------------------------*/
+.beer_profile ul {
+  list-style: none;
+  margin-left: 0;
+}
+.beer_profile ul .major-meta {
+  padding-bottom: 0.75em;
+}
+.beer_profile ul .major-meta .beer_abv, .beer_profile ul .major-meta .beer_ibu {
+  font-size: 125%;
+}
+.beer_profile ul span.beer_profile_heading {
+  font-weight: bold;
+}
+
+#ribbon-container {
+  margin: 0 0 1em 0;
+}
+
+/*--------------------------------------------------------------
+3.0 Single Post
+--------------------------------------------------------------*/
+.single-beer .beer_post_content {
+  border-top: 1px solid #efefef;
+  padding-top: 1em;
+}
+.single-beer .more-link {
+  display: none;
+}
