@@ -60,6 +60,12 @@ The shortcode can be adjusted to display the following:
 
 The image assigned as the "featured image" in the beer post will automatically display.
 
+== Credit ==
+
+team-post-type - ​https://github.com/devinsays/team-post-type
+License: GPL-2.0+ - http://www.gnu.org/licenses/gpl-2.0.html
+Copyright: Devin Price, @devinsays  
+
 == Changelog ==
 
 = 0.0.2 = April 20, 2015
