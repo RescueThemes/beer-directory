@@ -66,7 +66,13 @@ team-post-type - ​https://github.com/devinsays/team-post-type
 License: GPL-2.0+ - http://www.gnu.org/licenses/gpl-2.0.html
 Copyright: Devin Price, @devinsays  
 
+Dashboard Glancer - http://gamajo.com/dashboard-glancer
+License: GPL-2.0+ - http://www.gnu.org/licenses/gpl-2.0.html
+Copyright: Gary Jones, Gamajo Tech
+
 == Changelog ==
+= 0.0.3 = May 15, 2015
+* Updated text domain to 'beer-post-type'
 
 = 0.0.2 = April 20, 2015
 * Added .pot translation file
