@@ -8,7 +8,7 @@ class Beer_Post_Type {
 	/**
 	 * Plugin version, used for cache-busting of style and script file references.
 	 */
-	const VERSION = '0.0.2';
+	const VERSION = '0.0.3';
 
 	/**
 	 * Unique identifier for your plugin.

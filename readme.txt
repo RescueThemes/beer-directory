@@ -1,7 +1,7 @@
 === Beer Directory ===
 Contributors: rescuethemes
 Tags: beer, directory, brewery, homebrew, brew, hops, malt, yeast
-Stable tag: 0.0.2
+Stable tag: 0.0.3
 Requires at least: 4.0
 Tested up to: 4.1
 License: GPLv2 or later
