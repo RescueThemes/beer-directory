@@ -73,6 +73,7 @@ Copyright: Gary Jones, Gamajo Tech
 == Changelog ==
 = 0.0.3 = May 15, 2015
 * Updated text domain to 'beer-post-type'
+* Updated .pot translation file
 
 = 0.0.2 = April 20, 2015
 * Added .pot translation file
