@@ -45,73 +45,73 @@ class Beer_Post_Type_Metaboxes {
 
 			<tr>
 				<td class="beer_meta_box_td" colspan="1">
-					<label for="beer_abv" style="font-weight: bold;"><?php _e( 'Alcohol by volume (ABV)', 'beer-post-type' ); ?>
+					<label for="beer_abv" style="font-weight: bold;"><?php _e( 'Alcohol by volume (ABV)', 'beer-directory' ); ?>
 					</label>
 				</td>
 				<td colspan="4">
 					<input type="text" name="beer_abv" class="regular-text" value="<?php echo $beer_abv; ?>">
-					<p class="description"><?php _e( 'Example: 4.5%', 'beer-post-type' ); ?></p>
+					<p class="description"><?php _e( 'Example: 4.5%', 'beer-directory' ); ?></p>
 				</td>
 			</tr>
 
 			<tr>
 				<td class="beer_meta_box_td" colspan="1">
-					<label for="beer_ibu" style="font-weight: bold;"><?php _e( 'International Bitterness Units (IBU)', 'beer-post-type' ); ?>
+					<label for="beer_ibu" style="font-weight: bold;"><?php _e( 'International Bitterness Units (IBU)', 'beer-directory' ); ?>
 					</label>
 				</td>
 				<td colspan="4">
 					<input type="text" name="beer_ibu" class="regular-text" value="<?php echo $beer_ibu; ?>">
-					<p class="description"><?php _e( 'Example: 40', 'beer-post-type' ); ?></p>
+					<p class="description"><?php _e( 'Example: 40', 'beer-directory' ); ?></p>
 				</td>
 			</tr>
 
 			<tr>
 				<td class="beer_meta_box_td" colspan="1">
-					<label for="beer_og" style="font-weight: bold;"><?php _e( 'Original Gravity (OG)', 'beer-post-type' ); ?>
+					<label for="beer_og" style="font-weight: bold;"><?php _e( 'Original Gravity (OG)', 'beer-directory' ); ?>
 					</label>
 				</td>
 				<td colspan="4">
 					<input type="text" name="beer_og" class="regular-text" value="<?php echo $beer_og; ?>">
-					<p class="description"><?php _e( 'Example: 1.046', 'beer-post-type' ); ?></p>
+					<p class="description"><?php _e( 'Example: 1.046', 'beer-directory' ); ?></p>
 				</td>
 			</tr>
 
 			<tr>
 				<td class="beer_meta_box_td" colspan="1">
-					<label for="beer_fg" style="font-weight: bold;"><?php _e( 'Final Gravity (FG)', 'beer-post-type' ); ?>
+					<label for="beer_fg" style="font-weight: bold;"><?php _e( 'Final Gravity (FG)', 'beer-directory' ); ?>
 					</label>
 				</td>
 				<td colspan="4">
 					<input type="text" name="beer_fg" class="regular-text" value="<?php echo $beer_fg; ?>">
-					<p class="description"><?php _e( 'Example: 1.020', 'beer-post-type' ); ?></p>
+					<p class="description"><?php _e( 'Example: 1.020', 'beer-directory' ); ?></p>
 				</td>
 			</tr>
 
 			<tr>
 				<td class="beer_meta_box_td" colspan="1">
-					<label for="beer_color" style="font-weight: bold;"><?php _e( 'Color/SRM', 'beer-post-type' ); ?>
+					<label for="beer_color" style="font-weight: bold;"><?php _e( 'Color/SRM', 'beer-directory' ); ?>
 					</label>
 				</td>
 				<td colspan="4">
 					<input type="text" name="beer_color" class="regular-text" value="<?php echo $beer_color; ?>">
-					<p class="description"><?php _e( 'Example: 24 or Black', 'beer-post-type' ); ?></p>
+					<p class="description"><?php _e( 'Example: 24 or Black', 'beer-directory' ); ?></p>
 				</td>
 			</tr>
 
 			<tr>
 				<td class="beer_meta_box_td" colspan="1">
-					<label for="beer_grains" style="font-weight: bold;"><?php _e( 'Grains', 'beer-post-type' ); ?>
+					<label for="beer_grains" style="font-weight: bold;"><?php _e( 'Grains', 'beer-directory' ); ?>
 					</label>
 				</td>
 				<td colspan="4">
 					<input type="text" name="beer_grains" class="regular-text" value="<?php echo $beer_grains; ?>">
-					<p class="description"><?php _e( 'Example: Pale, Caramel, Roasted Barley, Oat Flake', 'beer-post-type' ); ?></p>
+					<p class="description"><?php _e( 'Example: Pale, Caramel, Roasted Barley, Oat Flake', 'beer-directory' ); ?></p>
 				</td>
 			</tr>
 
 			<tr>
 				<td class="beer_meta_box_td" colspan="1">
-					<label for="beer_yeast" style="font-weight: bold;"><?php _e( 'Yeast', 'beer-post-type' ); ?>
+					<label for="beer_yeast" style="font-weight: bold;"><?php _e( 'Yeast', 'beer-directory' ); ?>
 					</label>
 				</td>
 				<td colspan="4">
@@ -122,7 +122,7 @@ class Beer_Post_Type_Metaboxes {
 
 			<tr>
 				<td class="beer_meta_box_td" colspan="1">
-					<label for="beer_hops" style="font-weight: bold;"><?php _e( 'Hops', 'beer-post-type' ); ?>
+					<label for="beer_hops" style="font-weight: bold;"><?php _e( 'Hops', 'beer-directory' ); ?>
 					</label>
 				</td>
 				<td colspan="4">

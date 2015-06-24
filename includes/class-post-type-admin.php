@@ -39,7 +39,7 @@ class Beer_Post_Type_Admin {
 	 * @return array Amended columns.
 	 */
 	public function add_image_column( $columns ) {
-		$column_thumbnail = array( 'thumbnail' => __( 'Image', 'beer-post-type' ) );
+		$column_thumbnail = array( 'thumbnail' => __( 'Image', 'beer-directory' ) );
 		return array_slice( $columns, 0, 2, true ) + $column_thumbnail + array_slice( $columns, 1, null, true );
 	}
 

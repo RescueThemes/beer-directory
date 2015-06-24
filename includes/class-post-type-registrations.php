@@ -32,16 +32,16 @@ class Beer_Post_Type_Registrations {
 	 */
 	protected function register_post_type() {
 		$labels = array(
-			'name'               => __( 'Beer', 'beer-post-type' ),
-			'singular_name'      => __( 'Beer', 'beer-post-type' ),
-			'add_new'            => __( 'Add Beer', 'beer-post-type' ),
-			'add_new_item'       => __( 'Add Beer', 'beer-post-type' ),
-			'edit_item'          => __( 'Edit Beer', 'beer-post-type' ),
-			'new_item'           => __( 'New Beer', 'beer-post-type' ),
-			'view_item'          => __( 'View Beer', 'beer-post-type' ),
-			'search_items'       => __( 'Search Beer', 'beer-post-type' ),
-			'not_found'          => __( 'No beer found', 'beer-post-type' ),
-			'not_found_in_trash' => __( 'No beer in the trash', 'beer-post-type' ),
+			'name'               => __( 'Beer', 'beer-directory' ),
+			'singular_name'      => __( 'Beer', 'beer-directory' ),
+			'add_new'            => __( 'Add Beer', 'beer-directory' ),
+			'add_new_item'       => __( 'Add Beer', 'beer-directory' ),
+			'edit_item'          => __( 'Edit Beer', 'beer-directory' ),
+			'new_item'           => __( 'New Beer', 'beer-directory' ),
+			'view_item'          => __( 'View Beer', 'beer-directory' ),
+			'search_items'       => __( 'Search Beer', 'beer-directory' ),
+			'not_found'          => __( 'No beer found', 'beer-directory' ),
+			'not_found_in_trash' => __( 'No beer in the trash', 'beer-directory' ),
 		);
 
 		$supports = array(
@@ -77,22 +77,22 @@ class Beer_Post_Type_Registrations {
 	 */
 	protected function register_taxonomy_category() {
 		$labels = array(
-			'name'                       => __( 'Beer Categories', 'beer-post-type' ),
-			'singular_name'              => __( 'Beer Category', 'beer-post-type' ),
-			'menu_name'                  => __( 'Beer Categories', 'beer-post-type' ),
-			'edit_item'                  => __( 'Edit Beer Category', 'beer-post-type' ),
-			'update_item'                => __( 'Update Beer Category', 'beer-post-type' ),
-			'add_new_item'               => __( 'Add New Beer Category', 'beer-post-type' ),
-			'new_item_name'              => __( 'New Beer Category Name', 'beer-post-type' ),
-			'parent_item'                => __( 'Parent Beer Category', 'beer-post-type' ),
-			'parent_item_colon'          => __( 'Parent Beer Category:', 'beer-post-type' ),
-			'all_items'                  => __( 'All Beer Categories', 'beer-post-type' ),
-			'search_items'               => __( 'Search Beer Categories', 'beer-post-type' ),
-			'popular_items'              => __( 'Popular Beer Categories', 'beer-post-type' ),
-			'separate_items_with_commas' => __( 'Separate Beer categories with commas', 'beer-post-type' ),
-			'add_or_remove_items'        => __( 'Add or remove Beer categories', 'beer-post-type' ),
-			'choose_from_most_used'      => __( 'Choose from the most used beer categories', 'beer-post-type' ),
-			'not_found'                  => __( 'No Beer categories found.', 'beer-post-type' ),
+			'name'                       => __( 'Beer Categories', 'beer-directory' ),
+			'singular_name'              => __( 'Beer Category', 'beer-directory' ),
+			'menu_name'                  => __( 'Beer Categories', 'beer-directory' ),
+			'edit_item'                  => __( 'Edit Beer Category', 'beer-directory' ),
+			'update_item'                => __( 'Update Beer Category', 'beer-directory' ),
+			'add_new_item'               => __( 'Add New Beer Category', 'beer-directory' ),
+			'new_item_name'              => __( 'New Beer Category Name', 'beer-directory' ),
+			'parent_item'                => __( 'Parent Beer Category', 'beer-directory' ),
+			'parent_item_colon'          => __( 'Parent Beer Category:', 'beer-directory' ),
+			'all_items'                  => __( 'All Beer Categories', 'beer-directory' ),
+			'search_items'               => __( 'Search Beer Categories', 'beer-directory' ),
+			'popular_items'              => __( 'Popular Beer Categories', 'beer-directory' ),
+			'separate_items_with_commas' => __( 'Separate Beer categories with commas', 'beer-directory' ),
+			'add_or_remove_items'        => __( 'Add or remove Beer categories', 'beer-directory' ),
+			'choose_from_most_used'      => __( 'Choose from the most used beer categories', 'beer-directory' ),
+			'not_found'                  => __( 'No Beer categories found.', 'beer-directory' ),
 		);
 
 		$args = array(

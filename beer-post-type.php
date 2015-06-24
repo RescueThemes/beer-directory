@@ -6,7 +6,7 @@
  * Version:     0.0.3
  * Author:      Rescue Themes
  * Author URI:  https://rescuethemes.com
- * Text Domain: beer-post-type
+ * Text Domain: beer-directory
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path: /languages
@@ -92,3 +92,4 @@ function beer_directory_plugin_templates( $template ) {
 
     return $template;
 }
+

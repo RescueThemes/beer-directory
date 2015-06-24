@@ -2,7 +2,7 @@
 /**
  * Dashboard Glancer
  *
- * @package   Beer_Post_Type
+ * @package   Beer Directory
  * @author    Gary Jones
  * @link      http://gamajo.com/dashboard-glancer
  * @copyright 2014 Gary Jones, Gamajo Tech

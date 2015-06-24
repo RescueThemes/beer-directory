@@ -35,7 +35,7 @@ get_header(); ?>
 
                    <div id="ribbon-container">
                         <span id="ribbon">
-                            <?php _e('Beer Details','beer-post-type'); ?>
+                            <?php _e('Beer Details','beer-directory'); ?>
                         </span>
                    </div><!-- .ribbon-container -->
 
@@ -50,7 +50,7 @@ get_header(); ?>
                                if ( !empty( $beer_abv ) ) {
                             ?>
                             <li class="beer_abv">
-                                <span class="beer_profile_heading"><?php _e('ABV: ','beer-post-type'); ?></span>
+                                <span class="beer_profile_heading"><?php _e('ABV: ','beer-directory'); ?></span>
                                 <span class="beer_profile_meta"><?php echo $beer_abv; ?></span>
                             </li>
                             <?php } ?>
@@ -60,7 +60,7 @@ get_header(); ?>
                                if ( !empty( $beer_ibu ) ) {
                             ?>
                             <li class="beer_ibu">
-                                <span class="beer_profile_heading"><?php _e('IBU: ','beer-post-type'); ?></span>
+                                <span class="beer_profile_heading"><?php _e('IBU: ','beer-directory'); ?></span>
                                 <span class="beer_profile_meta"><?php echo $beer_ibu; ?></span>
                             </li>
                             <?php } ?>
@@ -74,7 +74,7 @@ get_header(); ?>
                                if ( !empty( $beer_og ) ) {
                             ?>
                             <li class="beer_og">
-                                <span class="beer_profile_heading"><?php _e('OG: ','beer-post-type'); ?></span>
+                                <span class="beer_profile_heading"><?php _e('OG: ','beer-directory'); ?></span>
                                 <span class="beer_profile_meta"><?php echo $beer_og; ?></span>
                             </li>
                             <?php } ?>
@@ -84,7 +84,7 @@ get_header(); ?>
                                if ( !empty( $beer_fg ) ) {
                             ?>
                             <li class="beer_fg">
-                                <span class="beer_profile_heading"><?php _e('FG: ','beer-post-type'); ?></span>
+                                <span class="beer_profile_heading"><?php _e('FG: ','beer-directory'); ?></span>
                                 <span class="beer_profile_meta"><?php echo $beer_fg; ?></span>
                             </li>
                             <?php } ?>
@@ -94,7 +94,7 @@ get_header(); ?>
                                if ( !empty( $beer_color ) ) {
                             ?>
                             <li class="beer_color">
-                                <span class="beer_profile_heading"><?php _e('Color: ','beer-post-type'); ?></span>
+                                <span class="beer_profile_heading"><?php _e('Color: ','beer-directory'); ?></span>
                                 <span class="beer_profile_meta"><?php echo $beer_color; ?></span>
                             </li>
                             <?php } ?>
@@ -104,7 +104,7 @@ get_header(); ?>
                                if ( !empty( $beer_grains ) ) {
                             ?>
                             <li class="beer_grains">
-                                <span class="beer_profile_heading"><?php _e('Grains: ','beer-post-type'); ?></span>
+                                <span class="beer_profile_heading"><?php _e('Grains: ','beer-directory'); ?></span>
                                 <span class="beer_profile_meta"><?php echo $beer_grains; ?></span>
                             </li>
                             <?php } ?>
@@ -114,7 +114,7 @@ get_header(); ?>
                                if ( !empty( $beer_yeast ) ) {
                             ?>
                             <li class="beer_yeast">
-                                <span class="beer_profile_heading"><?php _e('Yeast: ','beer-post-type'); ?></span>
+                                <span class="beer_profile_heading"><?php _e('Yeast: ','beer-directory'); ?></span>
                                 <span class="beer_profile_meta"><?php echo $beer_yeast; ?></span>
                             </li>
                             <?php } ?>
@@ -124,7 +124,7 @@ get_header(); ?>
                                if ( !empty( $beer_hops ) ) {
                             ?>
                             <li class="beer_hops">
-                                <span class="beer_profile_heading"><?php _e('Hops: ','beer-post-type'); ?></span>
+                                <span class="beer_profile_heading"><?php _e('Hops: ','beer-directory'); ?></span>
                                 <span class="beer_profile_meta"><?php echo $beer_hops; ?></span>
                             </li>
                             <?php } ?>
