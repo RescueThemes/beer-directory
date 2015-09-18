@@ -9,7 +9,7 @@ class Beer_Post_Type_Shortcode {
         add_shortcode( 'beer', array( $this, 'beer_list_shortcode' ) );
     }
      
-    public function beer_list_shortcode( $atts ) {
+    public function beer_list_shortcode( $atts, $content = null ) {
 
         ob_start();
 
@@ -220,6 +220,8 @@ class Beer_Post_Type_Shortcode {
 
         return $beerlist;
 
+        } else {
+            return $content;
         }
 
     }
