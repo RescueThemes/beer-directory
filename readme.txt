@@ -1,9 +1,9 @@
 === Beer Directory ===
 Contributors: rescuethemes
 Tags: beer, directory, brewery, homebrew, brew, hops, malt, yeast
-Stable tag: 0.0.4
+Stable tag: 0.0.5
 Requires at least: 4.0
-Tested up to: 4.2.2
+Tested up to: 4.6.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -71,6 +71,9 @@ License: GPL-2.0+ - http://www.gnu.org/licenses/gpl-2.0.html
 Copyright: Gary Jones, Gamajo Tech
 
 == Changelog ==
+= 0.0.5 = June 23, 2016
+* Updated text domain hook so translations work
+
 = 0.0.4 = June 23, 2015
 * Updated text domain to 'beer-directory'
 * Updated .pot translation file
