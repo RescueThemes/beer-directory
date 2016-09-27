@@ -8,7 +8,7 @@ class Beer_Post_Type {
 	/**
 	 * Plugin version, used for cache-busting of style and script file references.
 	 */
-	const VERSION = '0.0.4';
+	const VERSION = '0.0.5';
 
 	/**
 	 * Unique identifier for your plugin.
@@ -30,7 +30,7 @@ class Beer_Post_Type {
 		$this->registration_handler = $registration_handler;
 
 		// Load plugin text domain
-		add_action( 'init', array( $this, 'load_plugin_textdomain' ) );;
+		add_action( 'init', array( $this, 'beer_directory_load_plugin_textdomain' ) );;
 
 	}
 
@@ -55,9 +55,9 @@ class Beer_Post_Type {
 	 * Load the plugin text domain for translation.
 	 *
 	 */
-	public function load_plugin_textdomain() {
-		$domain = self::PLUGIN_SLUG;
-		load_plugin_textdomain( $domain, FALSE, dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages' );
+	public function beer_directory_load_plugin_textdomain() {
+
+		load_plugin_textdomain( 'beer-directory' , FALSE, dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages' );
 	}
 
 }
