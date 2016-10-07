@@ -60,6 +60,12 @@ The shortcode can be adjusted to display the following:
 
 The image assigned as the "featured image" in the beer post will automatically display.
 
+= How do display alternate text if no beers are found? =
+
+The enclosing shortcode format can be used to specify text that should appear if no beers are found.
+
+`[beer category="malt-beverages"]These are not the beers you're looking for[/beer]`
+
 == Credit ==
 
 team-post-type - ​https://github.com/devinsays/team-post-type
