@@ -51,7 +51,7 @@ get_header(); ?>
                             ?>
                             <li class="beer_abv">
                                 <span class="beer_profile_heading"><?php _e('ABV: ','beer-directory'); ?></span>
-                                <span class="beer_profile_meta"><?php echo $beer_abv; ?></span>
+                                <span class="beer_profile_meta"><?php echo esc_textarea( $beer_abv ); ?></span>
                             </li>
                             <?php } ?>
 
@@ -61,7 +61,7 @@ get_header(); ?>
                             ?>
                             <li class="beer_ibu">
                                 <span class="beer_profile_heading"><?php _e('IBU: ','beer-directory'); ?></span>
-                                <span class="beer_profile_meta"><?php echo $beer_ibu; ?></span>
+                                <span class="beer_profile_meta"><?php echo esc_textarea( $beer_ibu ); ?></span>
                             </li>
                             <?php } ?>
 
@@ -75,7 +75,7 @@ get_header(); ?>
                             ?>
                             <li class="beer_og">
                                 <span class="beer_profile_heading"><?php _e('OG: ','beer-directory'); ?></span>
-                                <span class="beer_profile_meta"><?php echo $beer_og; ?></span>
+                                <span class="beer_profile_meta"><?php echo esc_textarea( $beer_og ); ?></span>
                             </li>
                             <?php } ?>
 
@@ -85,7 +85,7 @@ get_header(); ?>
                             ?>
                             <li class="beer_fg">
                                 <span class="beer_profile_heading"><?php _e('FG: ','beer-directory'); ?></span>
-                                <span class="beer_profile_meta"><?php echo $beer_fg; ?></span>
+                                <span class="beer_profile_meta"><?php echo esc_textarea( $beer_fg ); ?></span>
                             </li>
                             <?php } ?>
 
@@ -95,7 +95,7 @@ get_header(); ?>
                             ?>
                             <li class="beer_color">
                                 <span class="beer_profile_heading"><?php _e('Color: ','beer-directory'); ?></span>
-                                <span class="beer_profile_meta"><?php echo $beer_color; ?></span>
+                                <span class="beer_profile_meta"><?php echo esc_textarea( $beer_color ); ?></span>
                             </li>
                             <?php } ?>
 
@@ -105,7 +105,7 @@ get_header(); ?>
                             ?>
                             <li class="beer_grains">
                                 <span class="beer_profile_heading"><?php _e('Grains: ','beer-directory'); ?></span>
-                                <span class="beer_profile_meta"><?php echo $beer_grains; ?></span>
+                                <span class="beer_profile_meta"><?php echo esc_textarea( $beer_grains ); ?></span>
                             </li>
                             <?php } ?>
 
@@ -115,7 +115,7 @@ get_header(); ?>
                             ?>
                             <li class="beer_yeast">
                                 <span class="beer_profile_heading"><?php _e('Yeast: ','beer-directory'); ?></span>
-                                <span class="beer_profile_meta"><?php echo $beer_yeast; ?></span>
+                                <span class="beer_profile_meta"><?php echo esc_textarea( $beer_yeast ); ?></span>
                             </li>
                             <?php } ?>
 
@@ -125,7 +125,17 @@ get_header(); ?>
                             ?>
                             <li class="beer_hops">
                                 <span class="beer_profile_heading"><?php _e('Hops: ','beer-directory'); ?></span>
-                                <span class="beer_profile_meta"><?php echo $beer_hops; ?></span>
+                                <span class="beer_profile_meta"><?php echo esc_textarea( $beer_hops ); ?></span>
+                            </li>
+                            <?php } ?>
+                            
+                             <?php // beer_avail
+                               $beer_avail = get_post_meta( get_the_ID(), 'beer_avail', true );
+                               if ( !empty( $beer_avail ) ) {
+                            ?>
+                            <li class="beer_avail">
+                                <span class="beer_profile_heading"><?php _e('Availability: ','beer-directory'); ?></span>
+                                <span class="beer_profile_meta"><?php echo esc_textarea( $beer_avail ); ?></span>
                             </li>
                             <?php } ?>
 

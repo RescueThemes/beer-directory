@@ -3,7 +3,7 @@
  * Plugin Name: Beer Directory
  * Plugin URI:  https://rescuethemes.com/beer-directory
  * Description: Enables a beer post type and beer list shortcode.
- * Version:     1.0
+ * Version:     1.1
  * Author:      Rescue Themes
  * Author URI:  https://rescuethemes.com
  * Text Domain: beer-directory
